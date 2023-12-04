@@ -8,10 +8,9 @@
 }
 
 .main-menu {
-    display: flex;
     font-size: 18px;
-    width: 380px;
-    justify-content: space-between;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .main-menu a {
@@ -25,4 +24,25 @@
 .main-menu a.active {
     color: #00285F;
     font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .main-nav {
+        padding-right: 10px;
+    }
+
+    #carrostop-navbar {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .main-menu a {
+        margin-left: 48px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        width: 979px;
+    }
 }
