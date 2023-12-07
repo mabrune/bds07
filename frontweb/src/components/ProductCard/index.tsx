@@ -15,8 +15,8 @@ const ProductCard = () => {
           nisi
         </p>
       </div>
-      <div className="card-button">
-        <button className="btn btn-icon">
+      <div className="product-card-button">
+        <button className="btn product-card-btn-icon">
           <p>COMPRAR</p>
         </button>
       </div>

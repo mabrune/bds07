@@ -1,6 +1,6 @@
-import CarImage from 'assets/images/car-header.png';
-
 import './styles.css';
+
+import CarImage from 'assets/images/car-header.png';
 import ButtonIcon from 'components/ButtonIcon';
 
 import { Link } from 'react-router-dom';
@@ -25,9 +25,9 @@ const Home = () => {
         <div className="home-card-2">
           <div className="home-card-2-content">
             <div className="home-card-2-button">
-            <Link to="/products">
+              <Link to="/products">
                 <ButtonIcon />
-            </ Link>    
+              </Link>
             </div>
             <div className="home-card-2-text">
               <p>Comece agora a navegar</p>

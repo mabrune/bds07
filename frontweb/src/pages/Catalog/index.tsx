@@ -1,10 +1,15 @@
-import ProductCard from 'components/ProductCard';
 import './styles.css';
+
+import ProductCard from 'components/ProductCard';
+import SearchCard from 'components/SearchCard';
 
 const Catalog = () => {
   return (
     <>
-      <div className="container my-4">
+      <div className="container">
+        <SearchCard />
+      </div>
+      <div className="container">
         <div className="row">
           <div className="col-sm-6 col-lg-4">
             <ProductCard />

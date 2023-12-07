@@ -4,9 +4,7 @@ import './App.css';
 import MyRoutes from 'MyRoutes';
 
 const App = () => {
-  return (
-    <MyRoutes />
-  );
-}
+  return <MyRoutes />;
+};
 
 export default App;
